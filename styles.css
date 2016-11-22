@@ -5,7 +5,7 @@ body {
 
 h2,
 h3 {
-  margin: 10px;
+  margin: 10px 0;
   font-size: 1.2em;
 }
 
@@ -45,21 +45,32 @@ p {
 }
 
 #legend {
-  top: 0;
-  height: 100px;
   margin-top: 20px;
-  width: 250px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   line-height: 18px;
-  height: 150px;
   margin-bottom: 40px;
-  padding: 10px;
+  padding: 15px;
+}
+
+#legend div {
+  margin-top: 10px;
 }
 
 .legend-key {
+  border-radius: 30px;
   display: inline-block;
-  border-radius: 20%;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   margin-right: 5px;
+}
+
+.s {
+  background-color: #7ecaae;
+}
+
+.m {
+  background-color: #f8734f;
+}
+
+.l {
+  background-color: #2a1144;
 }
